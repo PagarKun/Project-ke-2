@@ -87,6 +87,19 @@ h6 {
   font-family: var(--heading-font);
 }
 
+
+/* Gambar saudara Responsive 
+------------------------------*/
+
+.imgresponsive {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
 /* PHP Email Form Messages
 ------------------------------*/
 
@@ -170,8 +183,9 @@ h6 {
 }
 
 .header .profile-img img {
-  margin: 15px auto;
+  margin: 30px auto;
   display: block;
+  height: 130px;
   width: 120px;
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
